@@ -1,0 +1,15 @@
+<ag-grid-angular
+  class="ag-theme-balham table-size"
+  [modules]="modules"
+  [rowData]="rowData"
+  [rowHeight]="90"
+  [columnDefs]="columnDefs"
+  [frameworkComponents]="frameworkComponents"
+  [defaultColDef]="{ resizable: true }"
+  [icons]="icons"
+  [sideBar]="sideBar"
+  [allowContextMenuWithControlKey]="true"
+  [getContextMenuItems]="getContextMenuItems"
+  (gridReady)="onGridReady($event)"
+>
+</ag-grid-angular>

@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~ag-grid-community/dist/styles/ag-grid.css";
+@import "~ag-grid-community/dist/styles/ag-theme-balham.css";
+
+// regular style toast
+@import "~ngx-toastr/toastr";
+
+.toast-title.ng-star-inserted {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.toast-message.ng-star-inserted {
+  font-family: monospace;
+  font-size: 12px;
+}

@@ -1,0 +1,10 @@
+.toolbar-box {
+  text-align: center;
+  &__list {
+    font-size: 15px;
+    padding: 0 30px 10px 30px;
+    &__style {
+      padding-bottom: 15px;
+    }
+  }
+}

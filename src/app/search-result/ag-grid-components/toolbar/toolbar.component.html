@@ -1,0 +1,14 @@
+<div class="toolbar-box">
+  <span>
+    <h2><i class="fa fa-calculator"></i> Toolbar</h2>
+    <button (click)="toggleSelectionMode()">Toggle Selection</button>
+    <dl class="toolbar-box__list">
+      <dt class="toolbar-box__list__style">
+        Total Records Count: <b>{{ totalRecordsCount }}</b>
+      </dt>
+      <dt class="toolbar-box__list__style">
+        Total Records Selected: <b>{{ selectedRowsCount }}</b>
+      </dt>
+    </dl>
+  </span>
+</div>
